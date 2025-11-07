@@ -45,7 +45,6 @@ class ArrayList implements ListInterface, IteratorInterface {
         }
     }
 
-    // Iterator
     public function hasNext(): bool {
         return $this->cursor < count($this->items);
     }
